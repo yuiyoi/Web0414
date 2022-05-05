@@ -11,10 +11,17 @@ namespace Web410919166.Controllers
         // GET: Test
         public ActionResult Index()
         {
+            ViewBag.woo = "555";
+            ViewData["oow"] = 111;
             return View();
         }
 
         public ActionResult HW1()
+        {
+            return View();
+        }
+
+        public ActionResult HW2()
         {
             return View();
         }
